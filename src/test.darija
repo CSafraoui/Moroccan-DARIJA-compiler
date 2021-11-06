@@ -27,7 +27,7 @@ kteb(add(1,4));
 
 
 
-mtghyr break = ghalet;
+//mtghyr break = ghalet;
 
 //lkol i = 0; i < 10 w !break; ++i {
 //  ila i % 2 == 0 wla i < 2 {
