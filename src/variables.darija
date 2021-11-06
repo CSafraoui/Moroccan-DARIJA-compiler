@@ -1,0 +1,14 @@
+// kteb & 9ra
+mtghyr jawab = _9ra("Salam kidayr ?");
+kteb("jawabk : " + jawab);
+
+// declaration des variables
+mtghyr a = 9;
+mtghyr b = 1;
+mtghyr h=a+b;
+kteb("a+b = "+ _7wl_l_klma(h));
+
+mtghyr c="ensak";
+kteb("G.INF "+ c);
+
+

@@ -1,0 +1,11 @@
+mtghyr a = 9;
+mtghyr b = 7.9;
+
+// function:dalla
+dalla zid(a: sa7i7, b: sa7i7) {
+  rj3 a+b;
+}
+kteb(zid(3,9));
+
+
+

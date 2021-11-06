@@ -1,0 +1,39 @@
+mtghyr i : sa7i7;
+mtghyr x = 3;
+
+
+dalla add(a: sa7i7, b: sa7i7) {
+  rj3 a+b;
+}
+kteb(add(1,4));
+
+
+//ila i < 0 {
+//    kteb (i);
+//}
+//w_ilala {
+//    kteb(i);
+//}
+
+
+//ma7d i <= 1000 {
+//  kteb(i);
+//  i *= 2;
+//}
+
+
+//kteb("");
+//kteb("");
+
+
+
+//mtghyr break = ghalet;
+
+//lkol i = 0; i < 10 w !break; ++i {
+//  ila i % 2 == 0 wla i < 2 {
+//    kteb(i);
+//  }
+//  ila i > 4
+//    break = s7i7;
+//}
+

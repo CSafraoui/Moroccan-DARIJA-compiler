@@ -1,0 +1,75 @@
+// kteb & 9ra
+mtghyr jawab = _9ra("Salam kidayr ?");
+kteb("jawabk : " + jawab);
+
+// declaration des vars
+mtghyr a:sa7i7;
+mtghyr b:_3achari;
+mtghyr c:klma;
+mtghyr d:mnte9i;
+a=9;
+kteb(a);
+b=7.9;
+kteb(b);
+mtghyr h=a+b;
+kteb("a+b = "+ _7wl_l_klma(h));
+c="ensak";
+kteb("c hya : "+ c);
+
+// statement ila & :?
+
+c=="ensak" ? kteb ("condition s7i7a") : kteb("condition ghalta");
+
+ila c=="ensak" wla c=="ensa"  {
+    kteb (c);
+}
+
+
+// statement ila w ilala
+
+ila a < b {
+    kteb (a);
+}
+w_ilala {
+    kteb(b);
+}
+
+
+ila a == 9 {
+    kteb(a);
+  } w_ilala ila a < 9 {
+    kteb(a);
+  } w_ilala {
+    kteb(a);
+  }
+
+// statement ila wstha ila
+ila a==9 w b==7.9 {
+    ila h==16.9 {
+        kteb ("ila wstha ila sd9at");
+    }
+}
+
+// while ma7d
+ma7d a <= 12 {
+  kteb(a);
+  a += 1;
+}
+
+// for:lkol & true/false:ghalet,s7i7
+mtghyr i:sa7i7;
+mtghyr _7bs = ghalet;
+lkol i = 0; i < 10 w !_7bs; ++i {
+  ila i % 2 == 0 wla i < 2 {
+    kteb(i);
+  }
+  ila i > 4
+    _7bs = s7i7;
+}
+
+// function:dalla
+dalla add(a: sa7i7, b: sa7i7) {
+  rj3 a+b;
+}
+kteb(add(3,9));
+

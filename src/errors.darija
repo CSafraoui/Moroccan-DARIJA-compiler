@@ -1,0 +1,22 @@
+//had lvariable 'b' f blast 'klma' khas tkon 'sa7i7'
+mtghyr b:klma;
+b=800;
+
+//man9drch n3awd n3rf had lvariable 'b'
+//mtghyr b:klma;
+//mtghyr b:klma;
+
+//mat9derch initialiser had l variable 'a' 7it mamkaynach
+//c:sa7i7;
+//k mam3rfch
+//kteb(k);
+
+//had lparametr 'a' f blast sa7i7 khas ykon klma.
+//dalla add(a: sa7i7, b: sa7i7) {
+//  rj3 a+b;
+//}
+//mtghyr a:klma;
+//mtghyr b:klma;
+//a="hhhh";
+//b="jjj";
+//kteb(add(a,b));

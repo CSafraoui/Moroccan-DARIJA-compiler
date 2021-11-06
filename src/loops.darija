@@ -1,0 +1,61 @@
+mtghyr a = 9;
+mtghyr b = 7.9;
+mtghyr h=a+b;
+
+// statement ila w ilala
+ila a < b {
+    kteb(a);
+}
+w_ilala {
+    kteb(b);
+}
+
+kteb("////////");
+
+ila a == 9 {
+    kteb(a);
+  } w_ilala ila a < 9 {
+    kteb(b);
+  } w_ilala {
+    kteb(h);
+  }
+
+kteb("////////");
+
+// statement :?
+mtghyr c="ensak";
+c=="ensak" ? kteb ("condition s7i7a") : kteb("condition ghalta");
+
+kteb("////////");
+
+// statement ila wstha ila
+ila a==9 w b==7.9 {
+    ila h==16.9 {
+        kteb ("ila wstha ila sd9at");
+    }
+}
+
+kteb("////////");
+
+// while ma7d
+ma7d a <= 12 {
+  kteb(a);
+  a += 1;
+}
+
+kteb("////////");
+
+// for:lkol & true/false:ghalet,s7i7
+
+mtghyr i:sa7i7;
+mtghyr _7bs = ghalet;
+lkol i = 0; i < 10 w !_7bs; ++i {
+  ila i % 2 == 0 wla i < 2 {
+    kteb(i);
+  }
+  ila i > 4
+    _7bs = s7i7;
+}
+
+
+
